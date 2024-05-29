@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Tour Application</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to your CSS file -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Raleway&family=Montserrat&family=Alex+Brush&family=Allura&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="navigation">
+        <input type="checkbox" class="navigation-checkbox" id="navi-toggle" />
+        <label for="navi-toggle" class="navigation-button">
+          <span class="navigation-icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation-background">&nbsp;</div>
+        <nav class="navigation-nav">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="#contact" class="cta-btn"> get started </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#packages" class="navigation-link"> Packages </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#pricing" class="navigation-link"> Pricing </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#service-area" class="navigation-link"> Service Area </a>
+            </li>
+            <li class="navigation-item">
+              <a href="#contact" class="navigation-link"> Contact </a>
+            </li>
+
+            <li class="navigation-item">
+              <a href="#" class="navigation-link"> Login </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="nav">
+        <div class="logo">
+          <p class="business-name">uma <span class="special-text">3D</span></p>
+          <p class="motto">high-fidelity 3D tours</p>
+        </div>
+        <ul class="page-links">
+          <li class="link page-link">
+            <a href="#packages">packages</a>
+          </li>
+          <li class="link page-link">
+            <a href="#pricing">pricing</a>
+          </li>
+          <li class="link page-link">
+            <a href="#service-area">service area</a>
+          </li>
+          <li class="link page-link">
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+        <ul class="feature-links">
+          <li class="link feature-link">
+            <a href="#contact" class="cta-btn"> get started </a>
+          </li>
+          <li class="link page-link">
+            <a href="#">login</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="sections section-1" id="home">
+        <div class="bg-video">
+          <video class="bg-video-content" autoplay loop muted playsinline>
+            <source src="{Video}" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="hero-message-div">
+          <p class="main-hero-message">
+            <span class="part-1">High-Fidelity 3D Tours.</span>
+            <span class="part-2">Insights Powered by AI.</span>
+            <span class="part-3">Precision Scanning.</span>
+          </p>
+          <p class="sub-hero-message">
+            Serving Residential, Commercial, and Industrial Clients
+          </p>
+        </div>
+        <a href="#contact" class="cta-btn cta-btn-hero">
+          Upgrade to 3D Viewing
+        </a>
+      </section>
+
+      <section class="sections section-2" id="packages">
+        <div class="package-card package-card-1">
+          <div class="package-card-picture">&nbsp;</div>
+          <h4 class="package-card-heading">
+            <span class="package-card-heading-text">residential</span>
+          </h4>
+          <div class="package-card-details">
+            <ul class="package-card-details-list">
+              <li class="package-card-details-item">Hi-Fi 3D Tour</li>
+              <li class="package-card-details-item">Photo Gallery</li>
+              <li class="package-card-details-item">Branded Promo Video</li>
+              <li class="package-card-details-item">Dollhouse</li>
+              <li class="package-card-details-item">Measurement Tool</li>
+              <li class="package-card-details-item">VR Enabled</li>
+              <li class="package-card-details-item">Floor Plan</li>
+            </ul>
+          </div>
+          <div class="package-card-cta" id="pricing">
+            <div class="package-card-cta-price">
+              <h3 class="package-card-cta-amount">$335</h3>
+              <h5 class="package-card-cta-per-sqft">+ $0.15/sq.ft</h5>
+            </div>
+            <button class="cta-btn">modernize <span>your listing</span></button>
+          </div>
+        </div>
+        <div class="package-card package-card-2">
+          <div class="package-card-picture">&nbsp;</div>
+          <h4 class="package-card-heading">
+            <span class="package-card-heading-text">commercial</span>
+          </h4>
+          <div class="package-card-details">
+            <ul class="package-card-details-list">
+              <li class="package-card-details-item">Hi-Fi 3D Tour</li>
+              <li class="package-card-details-item">
+                Google Streetview Integration
+              </li>
+              <li class="package-card-details-item">Branded Promo Video</li>
+              <li class="package-card-details-item">Analytics</li>
+              <li class="package-card-details-item">Measurement Tool</li>
+              <li class="package-card-details-item">VR Enabled</li>
+              <li class="package-card-details-item">Custom Branding</li>
+            </ul>
+          </div>
+          <div class="package-card-cta">
+            <div class="package-card-cta-price">
+              <h3 class="package-card-cta-amount">$1200</h3>
+              <h5 class="package-card-cta-per-sqft">+ $0.20/sq.ft</h5>
+            </div>
+            <button class="cta-btn">evolve <span>your business</span></button>
+          </div>
+        </div>
+        <div class="package-card package-card-3">
+          <div class="package-card-picture">&nbsp;</div>
+          <h4 class="package-card-heading">
+            <span class="package-card-heading-text">industrial</span>
+          </h4>
+          <div class="package-card-details">
+            <ul class="package-card-details-list">
+              <li class="package-card-details-item">Hi-Fi 3D Tour</li>
+              <li class="package-card-details-item">Asset Tagging</li>
+              <li class="package-card-details-item">Accurate Floor Plan</li>
+              <li class="package-card-details-item">
+                High-Density Point Cloud
+              </li>
+              <li class="package-card-details-item">Measurement Tool</li>
+              <li class="package-card-details-item">VR Enabled</li>
+              <li class="package-card-details-item">
+                CAD, BIM, OBJ, SKX Files
+              </li>
+            </ul>
+          </div>
+          <div class="package-card-cta">
+            <div class="package-card-cta-price">
+              <h3 class="package-card-cta-amount">$2250</h3>
+              <h5 class="package-card-cta-per-sqft">+ $0.25/sq.ft</h5>
+            </div>
+            <button class="cta-btn">
+              innovate <span>your operations</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="sections section-3">
+        <div class="contact-form-container">
+          <div class="service-area" id="service-area">
+            <h3 class="service-area-heading">Service Area</h3>
+            <p class="service-area-text">
+              We provide high-fidelity 3D tours to clients in the following
+              areas:
+            </p>
+            <div class="service-area-lists">
+              <ul class="service-area-list">
+                <li class="service-area-item">Toronto Area</li>
+                <li class="service-area-item">Mississauga</li>
+                <li class="service-area-item">Oakville</li>
+                <li class="service-area-item">Burlington</li>
+                <li class="service-area-item">Brampton</li>
+                <li class="service-area-item">Hamilton</li>
+              </ul>
+              <ul class="service-area-list">
+                <li class="service-area-item">Vaughan</li>
+                <li class="service-area-item">Milton</li>
+                <li class="service-area-item">Richmond Hill</li>
+                <li class="service-area-item">Guelph</li>
+                <li class="service-area-item">Cambridge</li>
+                <li class="service-area-item">Kitchener-Waterloo</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-form-separator"></div>
+          <div class="contact-form" id="contact">
+            <form action="#" class="form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Full Name"
+                  id="name"
+                  required
+                />
+                <label for="name" class="form-label"> Full Name </label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-input"
+                  placeholder="E-Mail"
+                  id="email"
+                  required
+                />
+                <label for="email" class="form-label"> E-Mail </label>
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-message"
+                  placeholder="Message"
+                  id="message"
+                  required
+                ></textarea>
+                <label for="message" class="form-label"> Message </label>
+              </div>
+              <button type="submit" class="cta-btn">connect</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="logo">
+          <p class="business-name">uma <span class="special-text">3D</span></p>
+          <p class="motto">high-fidelity 3D tours</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuCheckbox = document.getElementById("navi-toggle");
+        const menuLinks = document.querySelectorAll(
+          ".navigation-nav .navigation-link"
+        );
+
+        menuLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            // Uncheck the menu checkbox to close the menu
+            menuCheckbox.checked = false;
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
