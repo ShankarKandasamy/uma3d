@@ -1132,6 +1132,9 @@ body {
     .service-area {
       width: 90%;
     }
+    .navigation-nav {
+      align-items: center;
+    }
   }
   @media only screen and (max-width: 550px) {
     .package-card-heading {
