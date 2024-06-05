@@ -1011,7 +1011,7 @@ svg {
   .navigation-link {
     font-size: 1.3rem;
   }
-  .main-hero-message {
+  .main-hero-message span {
     font-size: 1.4rem;
     line-height: 2.1;
   }
