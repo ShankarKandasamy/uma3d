@@ -796,6 +796,11 @@ svg {
   height: 2.7rem;
 }
 
+.footer-link {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
 .popup {
   position: fixed;
   width: 100vw;
