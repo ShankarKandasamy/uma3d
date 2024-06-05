@@ -108,7 +108,10 @@ body {
   font-size: 1.8rem;
   font-weight: 300;
   letter-spacing: 0.3rem;
-  line-height: 2.7;
+}
+
+.main-hero-message span {
+  margin-bottom: 27px;
 }
 
 .main-hero-message .part-1 {
@@ -1011,9 +1014,8 @@ svg {
   .navigation-link {
     font-size: 1.3rem;
   }
-  .main-hero-message span {
+  .main-hero-message {
     font-size: 1.4rem;
-    line-height: 2.1;
   }
   .sub-hero-message {
     font-size: 1.2rem;
@@ -1121,7 +1123,6 @@ svg {
 @media only screen and (max-width: 680px) {
   .main-hero-message {
     font-size: 1.2rem;
-    line-height: 2.1;
   }
   .sub-hero-message {
     font-size: 1rem;
@@ -1181,7 +1182,6 @@ svg {
   .main-hero-message {
     font-size: 1.1rem;
     font-weight: 600;
-    line-height: 2.9;
   }
   .sub-hero-message {
     font-size: 0.9rem;
