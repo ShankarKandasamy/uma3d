@@ -277,7 +277,7 @@
       const menuCheckbox = document.getElementById("navi-toggle");
       const ctaButton = document.getElementById('mobile-menu-cta-btn');
       const menuLinks = document.querySelectorAll(
-        ".navigation-nav .navigation-item"
+        ".navigation-nav a"
       );
       const loginButton = document.getElementById("login-button")
       const loginResponse = document.getElementById("login-response")
@@ -293,6 +293,7 @@
       menuLinks.forEach((link) => {
         link.addEventListener("click", () => {
           // Uncheck the menu checkbox to close the menu
+          console.log('Menucheck:', menuCheckbox);
           menuCheckbox.checked = false;
         });
       });
