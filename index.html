@@ -275,17 +275,13 @@
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const menuCheckbox = document.getElementById("navi-toggle");
-      const ctaButton = document.getElementById('mobile-menu-cta-btn');
       const menuLinks = document.querySelectorAll(
-        ".navigation-nav a"
+        ".navigation-nav .navigation-link"
       );
       const loginButton = document.getElementById("login-button")
       const loginResponse = document.getElementById("login-response")
       const loginInputs = document.querySelectorAll(".login-form .form-group")
 
-      ctaButton.addEventListener("click", () => {
-        menuCheckbox.checked = false;
-      })
       loginButton.addEventListener("click", () => {
         loginResponse.style.visibility = "visible";
       })
@@ -293,7 +289,6 @@
       menuLinks.forEach((link) => {
         link.addEventListener("click", () => {
           // Uncheck the menu checkbox to close the menu
-          console.log('Menucheck:', menuCheckbox);
           menuCheckbox.checked = false;
         });
       });
